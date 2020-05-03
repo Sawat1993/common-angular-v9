@@ -1,0 +1,32 @@
+{
+    "survey": [
+        {
+            "id":1,
+            "name":"M3bi Survey",
+            "status": "Active",
+            "createdBy": "Sawatantra",
+            "createdOn": "Wed Jan 15 2020 19:20:48 GMT+0530"
+        },
+        {
+            "id":2,
+            "name":"Test Survey",
+            "status": "Inactive",
+            "createdBy": "Sawatantra",
+            "createdOn": "Wed Jan 15 2020 19:20:48 GMT+0530"
+        },
+        {
+            "id":3,
+            "name":"Infosys Survey",
+            "status": "Active",
+            "createdBy": "Sawatantra",
+            "createdOn": "Wed Jan 15 2020 19:20:48 GMT+0530"
+        },
+        {
+            "id":4,
+            "name":"Tibco Survey",
+            "status": "Expire",
+            "createdBy": "Sawatantra",
+            "createdOn": "Wed Jan 15 2020 19:20:48 GMT+0530"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<div *ngIf="fileName.length === 0">
+    <input type="file" (change)="fileChangeEvent($event)"/>
+    <p class="mt-2">Drag your files here</p>
+</div>
+<div *ngIf="fileName.length > 0">
+    <span (click)="download()">{{fileName}}</span><i class="pi pi-times ml-3" (click)="fileName=''"></i>
+</div>

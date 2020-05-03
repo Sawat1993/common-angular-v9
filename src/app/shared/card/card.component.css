@@ -1,0 +1,37 @@
+.box {
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ribbon3 {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    position: absolute;
+    right: -8px;
+    top: 20px;
+    background: #44af46;
+    color: white;
+  }
+  .ribbon3:before, .ribbon3:after {
+    content: "";
+    position: absolute;
+  }
+  .ribbon3:after {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    right: 0.1px;
+    border-bottom: 9px solid black;
+    border-right: 9px solid transparent;
+  }
+  .ribbon3:before {
+    height: 0;
+    width: 0;
+    left: -14px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #44af46;
+  }

@@ -1,0 +1,10 @@
+<div class="box m-2 shadow rounded">
+    <span class="ribbon3 rounded-left">New</span>
+    <div class="card-body">
+        <h2 class="card-title">{{title}}</h2>
+        <div *ngFor="let item of item" class="row m-0 align-items-center">
+            <i class="pi m-1" [ngClass]="item.class"></i>
+            <span class="m-1">{{item.value}}</span>
+        </div>
+    </div>
+</div>

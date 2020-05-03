@@ -1,0 +1,15 @@
+.pi {
+    font-size: 1.6rem;
+}
+
+.active {
+    background-color: #d5ecd5;
+}
+
+.expire {
+    background-color: #ebbcbc;
+}
+
+.inactive {
+    background-color: lightgray;
+}

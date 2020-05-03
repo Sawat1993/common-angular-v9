@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row m-0 justify-content-center align-items-center login-form-row">
+        <div class="login-form shadow-lg mb-5">
+            <div class="semi-circle row m-0 justify-content-center align-items-center">
+                <img _ngcontent-lxv-c83="" src="./assets/images/login-bg.png">
+            </div>
+            <form [formGroup]="loginForm" class="row m-0 justify-content-center pt-5">
+                <mat-form-field class="col-9">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Ex. pat@example.com" formControlName="username">
+                    <mat-error *ngIf="getControl('username').hasError('required')">
+                        Email is <strong>required</strong>
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field class="col-9" [color]="'green'">
+                    <mat-label>Password</mat-label>
+                    <input type="password" matInput placeholder="Password" formControlName="password">
+                    <mat-error *ngIf="getControl('password').invalid">
+                        Please enter a valid Password
+                    </mat-error>
+                </mat-form-field>
+                <div class="row col-9 m-0 pt-3 justify-content-between align-items-center">
+                    <a [routerLink]="['/register']">Forgot Password?</a>
+                    <button pButton type="button" class="ui-button-success" label="Login"
+                    [disabled]="loginForm.invalid" (click)="login()"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

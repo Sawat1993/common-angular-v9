@@ -1,0 +1,35 @@
+nav {
+    background-color: #44af46;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: 600;
+}
+
+.active {
+    font-weight: 600;
+}
+
+mat-form-field {
+    margin-bottom: -12px;
+    color: white;
+}
